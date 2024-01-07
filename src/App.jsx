@@ -31,14 +31,13 @@ function App() {
         <div className='mt-10'><About/></div>
         <div className=' mt-10 flex flex-col items-center  mb-10'>
             <div className=' text-white mb-4' >Know more about me</div>
-            {/* <button className='px-6 py-3 rounded-md bg-green-300 text-black text-lg' onClick={()=>{swapNow()}}>&#8964;</button> */}
-           <Links className=' px-6 py-3 rounded-md bg-green-300 text-black text-lg ' smooth to='/#projects'>&#8964;</Links>
+           <Links className=' px-6 py-3 rounded-md bg-green-300 text-black text-3xl' smooth to='/#projects'>&#8964;</Links>
            
         </div>
-        {/* <div className=' bg-green-200 h-96'><Projects/></div>
+        <div className=' bg-green-200 h-96'><Projects/></div>
         <div className=' bg-orange-300 h-96'><TechStack/></div>
         <div className=' bg-cyan-300 h-96'><Contact/></div>
-        <div className=' bg-pink-200 h-96'><Footer/></div> */}
+        <div className=' bg-pink-200 h-96'><Footer/></div>
       </div>
      </Router>
   );
