@@ -20,16 +20,19 @@ const Navbar = () => {
       <nav>
         <ul className='flex justify-end space-x-10 px-20'>
           <li>
-            <Links className={`text-lg hover:underline ${isActive('#about') ? "text-green-300" : "text-white"}`} smooth to='/#about'>About Me</Links>
+            <Links className={`text-lg hover:underline ${isActive('#about') ? "text-cyan-300" : "text-white"}`} smooth to='/#about'>Home</Links>
+          </li>
+          <li>
+            <Links className={`text-lg hover:underline ${isActive('#aboutMe') ? "text-cyan-300" : "text-white"}`} smooth to='/#aboutMe'>About Me</Links>
           </li>
                 <li>
-                  <Links className={`text-lg hover:underline ${isActive('#techstack') ? "text-green-300" : "text-white"}`} smooth to='/#techstack'>Tech Stack</Links>
+                  <Links className={`text-lg hover:underline ${isActive('#techstack') ? "text-cyan-300" : "text-white"}`} smooth to='/#techstack'>Tech Stack</Links>
                 </li>
                 <li>
-                  <Links className={`text-lg hover:underline ${isActive('#projects') ? "text-green-300" : "text-white"}`} smooth to='/#projects'>Projects</Links>
+                  <Links className={`text-lg hover:underline ${isActive('#projects') ? "text-cyan-300" : "text-white"}`} smooth to='/#projects'>Projects</Links>
                 </li>
                 <li>
-                  <Links className={`text-lg hover:underline ${isActive('#contact') ? "text-green-300" : "text-white"}`} smooth to='/#contact'>Contact Me</Links>
+                  <Links className={`text-lg hover:underline ${isActive('#contact') ? "text-cyan-300" : "text-white"}`} smooth to='/#contact'>Contact Me</Links>
                 </li>
             </ul>
           </nav>
